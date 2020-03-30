@@ -1,0 +1,22 @@
+<tr data-id="~id~">
+    <td width="10%">
+        <i class="move"></i>
+        <a href="~language_prefix~/~pagename~/notifications/templates/edit/id/~id~" title="*Edit*" class="edit"><i class="fa fa-pencil"></i></a>
+        <a href="~language_prefix~/~pagename~/notifications/templates/delete/id/~id~" title="*Delete*"
+           onclick="return confirm('*Are you sure want to delete this notification template*?');" class="delete"><i class="fa fa-trash-o"></i></a>
+    </td>
+    <td width="20%" class="text-left">~type_name~</td>
+    <td width="20%" class="text-left">~event_name_code~</td>
+    <td width="30%" class="text-left">~user_name~</td>
+    <td width="20%" class="text-left"><input
+        type="checkbox"
+        value="1"
+        id="checkbox_~id~"
+        name="checkbox_~id~"
+        data-edit="active"
+        data-m-action="onchange_update"
+        data-m-model="modules\notifications\models\notifications_templates"
+        ~active_checked~
+        >
+        <label class="checkbox small" for="checkbox_~id~">*Active*</label></td>
+</tr>

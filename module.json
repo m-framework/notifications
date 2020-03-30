@@ -1,0 +1,21 @@
+{
+  "title":"Notifications",
+  "name":"notifications",
+  "description":"Send Email and SMS notifications via events or exactly from your custom module. Sending news notifications by shedule also available.",
+  "icon":"<i class=\"fa fa-envelope-o\"></i>",
+  "version":"1.0",
+  "date":"2018-07-23",
+  "author":"mrinmiro@gmail.com",
+  "compatible_cores":["1.0"],
+  "dashboard_menu":{
+    "/rules":"<i class=\"fa fa-cogs\"></i> *Notifications rules*",
+    "/events":"<i class=\"fa fa-cogs\"></i> *Client events*",
+    "/providers":"<i class=\"fa fa-cogs\"></i> *Notifications providers*",
+    "/types":"<i class=\"fa fa-cogs\"></i> *Notifications types*",
+    "/templates":"<i class=\"fa fa-list-alt\"></i> *Notifications templates*",
+    "/shedule":"<i class=\"fa fa-hourglass-half\"></i> *Sheduled sending*",
+    "/manually":"<i class=\"fa fa-send-o\"></i> *Manual sending*"
+  },
+  "price":"0",
+  "":""
+}

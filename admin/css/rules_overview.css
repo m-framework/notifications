@@ -1,0 +1,6 @@
+.notify.checked:before {
+    content: '\f00c';
+    font-family: "FontAwesome";
+    font-size: 20px;
+    font-style: normal;
+}

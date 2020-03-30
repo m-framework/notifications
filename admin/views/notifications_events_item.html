@@ -1,0 +1,29 @@
+<tr data-id="~id~">
+    <td width="10%">
+        <i class="move"></i>
+        <a href="#"
+           data-model="modules\notifications\models\notifications_events"
+           data-m-action="dynamic_edit"
+           data-m-context='tr[data-id="~id~"]'
+           title="*Edit*"
+           class="edit"><i class="fa fa-edit"></i></a>
+        <a href="#"
+           data-model="modules\notifications\models\notifications_events"
+           data-m-action="dynamic_edit"
+           data-m-context='tr[data-id="~id~"]'
+           class="delete"
+           title="*Delete*"><i class="fa fa-trash"></i></a>
+    </td>
+    <td width="35%" class="text-left"><span data-edit="event">~event~</span></td>
+    <td width="35%" class="text-left"><span data-edit="name">~name~</span></td>
+    <td width="20%" class="text-left"><input
+            type="checkbox"
+            value="1"
+            id="checkbox_~id~"
+            data-edit="active"
+            data-m-action="onchange_update"
+            data-m-model="modules\notifications\models\notifications_events"
+            ~active_checked~
+    >
+        <label class="checkbox small" for="checkbox_~id~">*Active*</label></td>
+</tr>

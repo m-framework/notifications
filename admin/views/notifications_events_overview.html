@@ -1,0 +1,35 @@
+<div class="additional-links">
+    <!--<a href="~language_prefix~/~pagename~/pages" title="*Pages overview*"><i class="fa fa-clone"></i></a>-->
+</div>
+<table cellpadding="0" cellspacing="0" class="admin-overview">
+    <thead>
+        <tr>
+            <th width="20%"></th>
+            <th width="80%" class="text-left">*Type*</th>
+        </tr>
+    </thead>
+    <tbody data-m-action="drag_sort" data-m-model="modules\notifications\models\notifications_events">
+        ~items~
+    </tbody>
+    <tfoot>
+        <tr class="editable" data-id="null">
+            <td width="10%">
+                <a href="#"
+                   data-model="modules\notifications\models\notifications_events"
+                   data-m-action="dynamic_edit"
+                   data-m-context="tr[data-id='null']"
+                   class="edit save plus"><i class="fa fa-edit"></i></a>
+                <a href="#"
+                   data-model="modules\notifications\models\notifications_events"
+                   data-m-action="dynamic_edit"
+                   data-m-context="tr[data-id='null']"
+                   class="delete"
+                   title="*Delete*"><i class="fa fa-trash"></i></a>
+            </td>
+            <td class="text-left" width="35%"><span data-edit="event"><textarea placeholder="*Notification event*"></textarea></span></td>
+            <td class="text-left" width="35%"><span data-edit="name"><textarea placeholder="*Event name*"></textarea></span></td>
+            <td class="text-left" width="20%"><input type="checkbox" value="1" id="id" data-edit="active">
+                <label class="checkbox small" for="id">*Active*</label></td>
+        </tr>
+    </tfoot>
+</table>

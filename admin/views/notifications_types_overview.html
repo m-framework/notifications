@@ -1,0 +1,32 @@
+<div class="additional-links">
+    <!--<a href="~language_prefix~/~pagename~/pages" title="*Pages overview*"><i class="fa fa-clone"></i></a>-->
+</div>
+<table cellpadding="0" cellspacing="0" class="admin-overview">
+    <thead>
+        <tr>
+            <th width="20%"></th>
+            <th width="80%" class="text-left">*Type*</th>
+        </tr>
+    </thead>
+    <tbody data-m-action="drag_sort" data-m-model="modules\notifications\models\notifications_types">
+        ~items~
+    </tbody>
+    <tfoot>
+        <tr class="editable" data-id="null">
+            <td width="10%">
+                <a href="#"
+                   data-model="modules\notifications\models\notifications_types"
+                   data-m-action="dynamic_edit"
+                   data-m-context="tr[data-id='null']"
+                   class="edit save plus"><i class="fa fa-edit"></i></a>
+                <a href="#"
+                   data-model="modules\notifications\models\notifications_types"
+                   data-m-action="dynamic_edit"
+                   data-m-context="tr[data-id='null']"
+                   class="delete"
+                   title="*Delete*"><i class="fa fa-trash"></i></a>
+            </td>
+            <td class="text-left" width="90%"><span data-edit="type"><textarea placeholder="*Put new notification type*"></textarea></span></td>
+        </tr>
+    </tfoot>
+</table>

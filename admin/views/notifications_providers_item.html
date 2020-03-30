@@ -1,0 +1,21 @@
+<tr data-id="~id~">
+    <td width="10%">
+        <i class="move"></i>
+        <a href="~language_prefix~/~pagename~/notifications/providers/edit/id/~id~" title="*Edit*" class="edit"><i class="fa fa-pencil"></i></a>
+        <a href="~language_prefix~/~pagename~/notifications/providers/delete/id/~id~" title="*Delete*"
+           onclick="return confirm('*Are you sure want to delete this notification provider*?');" class="delete"><i class="fa fa-trash-o"></i></a>
+    </td>
+    <td width="20%" class="text-left">~type_name~</td>
+    <td width="50%" class="text-left">~name~</td>
+    <td width="20%" class="text-left"><input
+        type="radio"
+        value="1"
+        id="radio_~id~"
+        name="radio_~type~"
+        data-edit="default"
+        data-m-action="onchange_update"
+        data-m-model="modules\notifications\models\notifications_providers"
+        ~default_checked~
+        >
+        <label class="checkbox small" for="radio_~id~">*Default*</label></td>
+</tr>
