@@ -1,0 +1,2 @@
+# notifications
+modules: notifications
